@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "lib": ["ES2021", "DOM"]
+  },
+  "typedocOptions": {
+    "name": "WalletConnector",
+    "excludeExternals": true,
+    "excludePrivate": true,
+    "readme": "./ReadMe.md",
+    "out": "docs/"
+  }
+}

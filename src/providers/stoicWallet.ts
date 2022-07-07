@@ -1,7 +1,7 @@
 import { WalletConnectError, WalletConnectErrorCode } from '../exception';
 import { principalToAccountID } from '../helper';
 import { IWalletConnector, WalletAuth, WalletType } from '..';
-import { Actor, HttpAgent } from '@dfinity/agent';
+import { Actor, HttpAgent, Identity } from '@dfinity/agent';
 import { IDL } from '@dfinity/candid';
 import { StoicIdentity } from './ic-stoic-identity';
 declare const window: any;
@@ -13,7 +13,7 @@ export class StoicWalletConnector implements IWalletConnector {
   private whiteList: Array<string> = [];
   private providerUrl: string;
   private dev: boolean;
-  private identity?: any = undefined;
+  private identity?: Identity = undefined;
   constructor(
     icHost: string,
     whitelist: string[] = [],
@@ -25,6 +25,7 @@ export class StoicWalletConnector implements IWalletConnector {
     this.dev = dev;
     this.providerUrl = providerUrl;
   }
+
   connect = async (): Promise<WalletAuth> => {
     const stoicConn = await StoicIdentity.load();
     try {

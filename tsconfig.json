@@ -3,10 +3,12 @@
     "moduleResolution": "Node",
     "esModuleInterop": true,
     "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "target":"ES5",
     "lib": ["ES2021", "DOM"]
   },
   "typedocOptions": {
-    "name": "WalletConnector",
+    "name": "ICConnector",
     "excludeExternals": true,
     "excludePrivate": true,
     "readme": "./ReadMe.md",

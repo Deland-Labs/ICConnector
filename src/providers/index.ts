@@ -1,4 +1,4 @@
-//import { AstroXConnector } from './astrox';
+// import { AstroXConnector } from './astrox';
 import { InfinityWalletConnector } from './infinityWallet';
 import { NFIDConnector } from './nfid';
 import { PlugWalletConnector } from './plugWallet';

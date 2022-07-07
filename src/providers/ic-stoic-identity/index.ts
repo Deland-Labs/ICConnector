@@ -215,7 +215,8 @@ export class StoicIdentity extends SignIdentity {
   }
 
   private static _stoicInit() {
-    return JSON.parse(localStorage.getItem('_scApp')) || false;
+    this._stoicApp = JSON.parse(localStorage.getItem('_scApp'));
+    return this._stoicApp || false;
   }
 
   async _stoicSign<T>(

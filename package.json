@@ -1,6 +1,6 @@
 {
   "name": "@deland-labs/ic-connector",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/Deland-Labs/ic-connector#readme",
   "repository": {
     "type": "git",
@@ -64,7 +64,7 @@
     "pack-dist": "rm -rf dist/  &&  parcel build",
     "pack-docs": "rm -rf docs/  &&  typedoc src/",
     "build": "npm run pack-dist  &&  npm run pack-docs",
-    "prepublishOnly": "npm test  &&  npm run build",
+    "prepublishOnly": "npm test --passWithNoTests &&  npm run build",
     "start": "npm run pack-docs  &&  open-cli docs/index.html"
   }
 }

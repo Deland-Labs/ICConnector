@@ -60,11 +60,11 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "test": "lint-staged && jest",
+    "test": "lint-staged && jest --passWithNoTests",
     "pack-dist": "rm -rf dist/  &&  parcel build",
     "pack-docs": "rm -rf docs/  &&  typedoc src/",
     "build": "npm run pack-dist  &&  npm run pack-docs",
-    "prepublishOnly": "npm test --passWithNoTests &&  npm run build",
+    "prepublishOnly": "npm test &&  npm run build",
     "start": "npm run pack-docs  &&  open-cli docs/index.html"
   }
 }

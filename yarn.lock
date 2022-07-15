@@ -347,10 +347,10 @@
     secp256k1 "^4.0.2"
     tweetnacl "^1.0.1"
 
-"@dfinity/identity@^0.11.0":
-  version "0.11.3"
-  resolved "https://registry.yarnpkg.com/@dfinity/identity/-/identity-0.11.3.tgz#b7ae0d049159f98bb3b693683824b7315124c4bb"
-  integrity sha512-AXgrG6a7PxJmiZOC12ooKvPeOfh4+v3dR7D6jynLlN4qMy0ry+BMZhWkyjWrlRR3p8oMznzfjoMuKN5pOrBKDg==
+"@dfinity/identity@^0.12.0":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@dfinity/identity/-/identity-0.12.1.tgz#f19bf2ed6bfbbb1f4e7c859c039e4da8dee81857"
+  integrity sha512-FNrjV4/gG9PjQfGLIoH1DycqSAMaoTZCxB+cSVJRFCvGQKc3F3kn5tj6rIv9LV+NNV1f1qfmTXE8rYsMCmEecg==
   dependencies:
     "@types/webappsec-credential-management" "^0.6.2"
     borc "^2.1.1"

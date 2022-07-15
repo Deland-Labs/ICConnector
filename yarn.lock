@@ -311,10 +311,10 @@
     js-sha256 "0.9.0"
     simple-cbor "^0.4.1"
 
-"@dfinity/agent@^0.11.0":
-  version "0.11.3"
-  resolved "https://registry.yarnpkg.com/@dfinity/agent/-/agent-0.11.3.tgz#3363b1dbaa10a6e5cfe25e269316e2416fd3d11d"
-  integrity sha512-pqiogLey6S83SG5BS93hBCtXfGRW6tkxa8Y0c9HwxOP/wRoVEuKHdTcOn7rL/HN4mDTwxkdqK4EC1Kv24S1q4Q==
+"@dfinity/agent@^0.12.0":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@dfinity/agent/-/agent-0.12.1.tgz#c3acd6419712aca77bf94f76057f100caeb69be4"
+  integrity sha512-/KSKh248k4pjzvqCzIgYNNi3pTv+DBZ40+QiTBQeFzp6VEg3gfSv5bK2UwC0Plq9xwk7TeeeGLiTv6DI3RjCOQ==
   dependencies:
     base64-arraybuffer "^0.2.0"
     bignumber.js "^9.0.0"

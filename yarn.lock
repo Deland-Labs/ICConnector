@@ -10,16 +10,16 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@astrox/connection@^0.0.41":
-  version "0.0.41"
-  resolved "https://registry.yarnpkg.com/@astrox/connection/-/connection-0.0.41.tgz#59be7f1ea202f1c928c22c14bb0eeca704113fe5"
-  integrity sha512-PtdziNHVqPmhS1Jmr25+VPPvz5FPBpiBixH9xRTKBUznjTjxzGdMeGcbF7N3RbxpATxGhTXUjFBWirhC2buP8g==
+"@astrox/connection@^0.0.42":
+  version "0.0.42"
+  resolved "https://registry.yarnpkg.com/@astrox/connection/-/connection-0.0.42.tgz#369fba5d149f32463e798a45d43ad323cebc9879"
+  integrity sha512-oSbZFKEY1DVlYvWgUMRKeVmae6YdgAsb+uK+tKNONl2ea1r6RtZeaacLAv5YtmsZUNES2YGXUwT+OQ99F1OOxg==
   dependencies:
-    "@dfinity/agent" "^0.10.1"
-    "@dfinity/authentication" "0.10.1"
-    "@dfinity/candid" "^0.10.1"
-    "@dfinity/identity" "^0.10.1"
-    "@dfinity/principal" "^0.10.1"
+    "@dfinity/agent" "^0.12.0"
+    "@dfinity/authentication" "0.12.0"
+    "@dfinity/candid" "^0.12.0"
+    "@dfinity/identity" "^0.12.0"
+    "@dfinity/principal" "^0.12.0"
     "@types/crc" "^3.4.0"
     buffer "^6.0.3"
     crc "^3.8.0"
@@ -300,17 +300,6 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@dfinity/agent@^0.10.1":
-  version "0.10.4"
-  resolved "https://registry.yarnpkg.com/@dfinity/agent/-/agent-0.10.4.tgz#269406f1cb5524276c52ddf37e933abd75529063"
-  integrity sha512-/O1443GWkQ6GngrXos/ShAbnF9IgUlWclzaQn/qEsGJIey6S7tty+iOa5yZqOS1BtOTnDe+TYh8GeERZZn7vvg==
-  dependencies:
-    base64-arraybuffer "^0.2.0"
-    bignumber.js "^9.0.0"
-    borc "^2.1.1"
-    js-sha256 "0.9.0"
-    simple-cbor "^0.4.1"
-
 "@dfinity/agent@^0.11.0":
   version "0.11.3"
   resolved "https://registry.yarnpkg.com/@dfinity/agent/-/agent-0.11.3.tgz#3363b1dbaa10a6e5cfe25e269316e2416fd3d11d"
@@ -322,30 +311,31 @@
     js-sha256 "0.9.0"
     simple-cbor "^0.4.1"
 
-"@dfinity/authentication@0.10.1":
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/@dfinity/authentication/-/authentication-0.10.1.tgz#64690d06323fb2857acba0742488dceadf84f940"
-  integrity sha512-k8D80Ba27Kw3sgVtnz9j3jZ/7rpg5r8n1/NWdmy8aHMJnVhTXghIskptM0YRpA7bS9cJW5tSFLnvalKNGWcnuA==
+"@dfinity/agent@^0.12.0":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@dfinity/agent/-/agent-0.12.1.tgz#c3acd6419712aca77bf94f76057f100caeb69be4"
+  integrity sha512-/KSKh248k4pjzvqCzIgYNNi3pTv+DBZ40+QiTBQeFzp6VEg3gfSv5bK2UwC0Plq9xwk7TeeeGLiTv6DI3RjCOQ==
+  dependencies:
+    base64-arraybuffer "^0.2.0"
+    bignumber.js "^9.0.0"
+    borc "^2.1.1"
+    js-sha256 "0.9.0"
+    simple-cbor "^0.4.1"
 
-"@dfinity/candid@^0.10.1":
-  version "0.10.4"
-  resolved "https://registry.yarnpkg.com/@dfinity/candid/-/candid-0.10.4.tgz#32f666f6a069d87b6f7007d7ad3c50ab307d8b76"
-  integrity sha512-Rd8uoo3jd4FLmGY9aBgTRdBCYVuG/Y7QmpDJB3eQvsU3WHhVZJWLMHcodnMIoy2bzqzCKeTdLkL565K7qx5H3Q==
+"@dfinity/authentication@0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@dfinity/authentication/-/authentication-0.12.0.tgz#db1bfc2aa64e5b91aee8147b68f46bb9cc72c3d0"
+  integrity sha512-ZOe7JW8Lw1nfefeqWNxvhH2EDlwjuDGoadT571lWN4gsWPsIh+3UpPICWZZEwRm9OCv4xpDvy4zDrjLIpixfKg==
 
 "@dfinity/candid@^0.11.0":
   version "0.11.3"
   resolved "https://registry.yarnpkg.com/@dfinity/candid/-/candid-0.11.3.tgz#aed66124751545522acf9bde7cdc22b5d9ce31df"
   integrity sha512-xX7xNj2lLt7SIlvy0sqNp4fpcTD/xnwEu9APj0tnIF64cnsxIiS12T1Z8jl9g80jCQ1CbRPQf4cfsOfS3Cd2OA==
 
-"@dfinity/identity@^0.10.1":
-  version "0.10.4"
-  resolved "https://registry.yarnpkg.com/@dfinity/identity/-/identity-0.10.4.tgz#2474b73aa6c25887ff69472259c29705063f7e45"
-  integrity sha512-b4WsaD70Ts75JlJcf4+E04B140hQN5u/GnCvjhaHqN2++bwWO56Paxtv0UfAc58LMwJZj4iOyZoahnT56LhC9A==
-  dependencies:
-    borc "^2.1.1"
-    js-sha256 "^0.9.0"
-    secp256k1 "^4.0.2"
-    tweetnacl "^1.0.1"
+"@dfinity/candid@^0.12.0":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@dfinity/candid/-/candid-0.12.1.tgz#6ba819c56bc3ff55f6f98bdb39470d1d385084b6"
+  integrity sha512-YX8jfyy/8Qmz4f1mbjqXUqOmtYcGru1gfYWxlRhKFSkeLH0VeZkfPEmD6EQ25k+18ATPk83MQiZnu0b6AWxBUw==
 
 "@dfinity/identity@^0.11.0":
   version "0.11.3"
@@ -358,15 +348,26 @@
     secp256k1 "^4.0.2"
     tweetnacl "^1.0.1"
 
-"@dfinity/principal@^0.10.1":
-  version "0.10.4"
-  resolved "https://registry.yarnpkg.com/@dfinity/principal/-/principal-0.10.4.tgz#8f28f631929cc420a4238f75930090aba84d74b8"
-  integrity sha512-qwzpmq5wfyeKMBspRZmuYvTxu1dqN+IY0ThACHTRh6D58QjnVQNCD3Hq9d5eEDu0qyNcY22cJEWwzrzZaaoVmw==
+"@dfinity/identity@^0.12.0":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@dfinity/identity/-/identity-0.12.1.tgz#f19bf2ed6bfbbb1f4e7c859c039e4da8dee81857"
+  integrity sha512-FNrjV4/gG9PjQfGLIoH1DycqSAMaoTZCxB+cSVJRFCvGQKc3F3kn5tj6rIv9LV+NNV1f1qfmTXE8rYsMCmEecg==
+  dependencies:
+    "@types/webappsec-credential-management" "^0.6.2"
+    borc "^2.1.1"
+    js-sha256 "^0.9.0"
+    secp256k1 "^4.0.2"
+    tweetnacl "^1.0.1"
 
 "@dfinity/principal@^0.11.0":
   version "0.11.3"
   resolved "https://registry.yarnpkg.com/@dfinity/principal/-/principal-0.11.3.tgz#2130a7673bb8c2d404bc9842136547a91cb3edd2"
   integrity sha512-+AJGDJ+RsveybSdxuTQFr2DPNZFpPfXnyixAOFWWdElVniSwnO/SwqQChR0AWvJdy/fKqoAXK+ZzyLG0uqSetA==
+
+"@dfinity/principal@^0.12.0":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@dfinity/principal/-/principal-0.12.1.tgz#d4b1f088beded6c1f1b2efbe68a0632e0b4018f7"
+  integrity sha512-aL5y0mpzRex6LRSc4LUZyhn2GTFfHyxkakkOZxEM7+ecz8HsKKK+mSo78gL1TCso2QkCL4BqZzxnoIxxKqM1cw==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"

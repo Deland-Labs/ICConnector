@@ -363,10 +363,10 @@
   resolved "https://registry.yarnpkg.com/@dfinity/principal/-/principal-0.10.4.tgz#8f28f631929cc420a4238f75930090aba84d74b8"
   integrity sha512-qwzpmq5wfyeKMBspRZmuYvTxu1dqN+IY0ThACHTRh6D58QjnVQNCD3Hq9d5eEDu0qyNcY22cJEWwzrzZaaoVmw==
 
-"@dfinity/principal@^0.11.0":
-  version "0.11.3"
-  resolved "https://registry.yarnpkg.com/@dfinity/principal/-/principal-0.11.3.tgz#2130a7673bb8c2d404bc9842136547a91cb3edd2"
-  integrity sha512-+AJGDJ+RsveybSdxuTQFr2DPNZFpPfXnyixAOFWWdElVniSwnO/SwqQChR0AWvJdy/fKqoAXK+ZzyLG0uqSetA==
+"@dfinity/principal@^0.12.0":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@dfinity/principal/-/principal-0.12.1.tgz#d4b1f088beded6c1f1b2efbe68a0632e0b4018f7"
+  integrity sha512-aL5y0mpzRex6LRSc4LUZyhn2GTFfHyxkakkOZxEM7+ecz8HsKKK+mSo78gL1TCso2QkCL4BqZzxnoIxxKqM1cw==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"

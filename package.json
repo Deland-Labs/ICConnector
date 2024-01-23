@@ -15,7 +15,7 @@
   "main": "dist/index.js",
   "dependencies": {
     "@astrox/connection": "^0.0.41",
-    "@dfinity/agent": "^0.11.0",
+    "@dfinity/agent": "^0.21.0",
     "@dfinity/candid": "^0.11.0",
     "@dfinity/identity": "^0.11.0",
     "@dfinity/principal": "^0.11.0",

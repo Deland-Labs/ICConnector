@@ -363,10 +363,12 @@
   resolved "https://registry.yarnpkg.com/@dfinity/principal/-/principal-0.10.4.tgz#8f28f631929cc420a4238f75930090aba84d74b8"
   integrity sha512-qwzpmq5wfyeKMBspRZmuYvTxu1dqN+IY0ThACHTRh6D58QjnVQNCD3Hq9d5eEDu0qyNcY22cJEWwzrzZaaoVmw==
 
-"@dfinity/principal@^0.11.0":
-  version "0.11.3"
-  resolved "https://registry.yarnpkg.com/@dfinity/principal/-/principal-0.11.3.tgz#2130a7673bb8c2d404bc9842136547a91cb3edd2"
-  integrity sha512-+AJGDJ+RsveybSdxuTQFr2DPNZFpPfXnyixAOFWWdElVniSwnO/SwqQChR0AWvJdy/fKqoAXK+ZzyLG0uqSetA==
+"@dfinity/principal@^0.21.0":
+  version "0.21.2"
+  resolved "https://registry.yarnpkg.com/@dfinity/principal/-/principal-0.21.2.tgz#e0f07c2f8d569dc5164c1aa5c789ad638b17a092"
+  integrity sha512-vOEwSkyNrDNeXy4TCHsUOk4H98yFj1DCvRuK1Hmi/dMUZ8GB5vjrQWqQhFjCO84NA6GkrDbPmuInra42kUpGtA==
+  dependencies:
+    "@noble/hashes" "^1.3.1"
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
@@ -705,6 +707,11 @@
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@msgpackr-extract/msgpackr-extract-win32-x64/-/msgpackr-extract-win32-x64-2.0.2.tgz#baea7764b1adf201ce4a792fe971fd7211dad2e4"
   integrity sha512-fpnI00dt+yO1cKx9qBXelKhPBdEgvc8ZPav1+0r09j0woYQU2N79w/jcGawSY5UGlgQ3vjaJsFHnGbGvvqdLzg==
+
+"@noble/hashes@^1.3.1":
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/@noble/hashes/-/hashes-1.3.3.tgz#39908da56a4adc270147bb07968bf3b16cfe1699"
+  integrity sha512-V7/fPHgl+jsVPXqqeOzT8egNj2iBIVt+ECeMMG8TdcnTikP3oaBtUVqpT/gYCR68aEBJSF+XbYUxStjbFMqIIA==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"

@@ -332,10 +332,10 @@
   resolved "https://registry.yarnpkg.com/@dfinity/candid/-/candid-0.10.4.tgz#32f666f6a069d87b6f7007d7ad3c50ab307d8b76"
   integrity sha512-Rd8uoo3jd4FLmGY9aBgTRdBCYVuG/Y7QmpDJB3eQvsU3WHhVZJWLMHcodnMIoy2bzqzCKeTdLkL565K7qx5H3Q==
 
-"@dfinity/candid@^0.11.0":
-  version "0.11.3"
-  resolved "https://registry.yarnpkg.com/@dfinity/candid/-/candid-0.11.3.tgz#aed66124751545522acf9bde7cdc22b5d9ce31df"
-  integrity sha512-xX7xNj2lLt7SIlvy0sqNp4fpcTD/xnwEu9APj0tnIF64cnsxIiS12T1Z8jl9g80jCQ1CbRPQf4cfsOfS3Cd2OA==
+"@dfinity/candid@^0.21.0":
+  version "0.21.2"
+  resolved "https://registry.yarnpkg.com/@dfinity/candid/-/candid-0.21.2.tgz#725e3e3b1e18d64ff380f324cfbe5c60c251a49b"
+  integrity sha512-/KCubIOtB8mDTxciMbzexahji5zT7sPLIS4wSlsjOiKmDnurk4ZG0EobkNYJTELy3aXaXDkKNzsbptFVqgpUMw==
 
 "@dfinity/identity@^0.10.1":
   version "0.10.4"

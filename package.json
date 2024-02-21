@@ -17,7 +17,7 @@
     "@astrox/connection": "^0.0.41",
     "@dfinity/agent": "^0.11.0",
     "@dfinity/candid": "^0.11.0",
-    "@dfinity/identity": "^0.11.0",
+    "@dfinity/identity": "^0.19.0",
     "@dfinity/principal": "^0.11.0",
     "@swc/helpers": "^0.4.3",
     "crc": "^4.1.1",
